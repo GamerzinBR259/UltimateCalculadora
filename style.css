@@ -1,0 +1,26 @@
+h1 {text-align:center; color: rgb(81, 11, 243);}
+h1 {text-decoration-line: underline;}
+h1 {font-family:cursive;}
+h1 {font-size:50px;}
+
+form {text-align: center;color:rgb(0, 0, 179);}
+form {font-family:cursive;}
+form {font-size:20px;}
+
+nav a, button{min-width: 50px;min-height: 50px;}
+
+body {background-image:url("arquipelago.jpg");background-size: cover;}
+img {max-width: 100%;}
+
+
+@media screen and (max-width:500px) 
+{
+
+h1 {text-align:center;color:rgb(0, 71, 179);}
+h1 {text-decoration-line:underline;}
+h1 {font-family:cursive;}
+h1 {font-size:45px;}
+
+body {background-image:url("arcondes.jpg");}
+
+}
